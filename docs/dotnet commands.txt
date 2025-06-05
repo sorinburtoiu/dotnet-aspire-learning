@@ -1,0 +1,36 @@
+✅ Used .NET Commands:
+dotnet run
+
+dotnet workload update
+
+dotnet workload install aspire
+
+dotnet new aspire-starter
+
+dotnet new aspire-service-defaults
+
+dotnet sln add service-defaults
+
+dotnet add reference ../service-defaults
+
+dotnet new aspire-apphost
+
+dotnet sln add apphost
+
+dotnet add reference ../API
+
+dotnet add reference ../myweatherhub
+
+dotnet add package Aspire.Hosting.Redis
+
+dotnet add package Aspire.StackExchange.Redis.OutputCaching
+
+azd init (Azure Developer CLI, but mentioned alongside .NET deployment)
+
+azd up
+
+azd auth login
+
+azd infra synth
+
+azd group delete --name rg-myweatherhub
