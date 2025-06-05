@@ -1,1 +1,2 @@
-.azure
+# .azure is needed for azd deployment, do not ignore
+# .azure
