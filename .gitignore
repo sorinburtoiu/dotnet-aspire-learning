@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+# .azure is needed for azd deployment, do not ignore
+# .azure
