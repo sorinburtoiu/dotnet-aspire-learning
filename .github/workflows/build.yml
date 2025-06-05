@@ -28,8 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         project:
-        - start
-        - complete
+        - src
 
     steps:
     - uses: actions/checkout@v4
