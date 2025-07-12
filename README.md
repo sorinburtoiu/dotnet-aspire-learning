@@ -40,6 +40,8 @@ A full slide deck is available for this workshop [here](./docs/AspireWorkshop.pp
 The starting project for this workshop is located in the `start` folder.  This project is a simple weather API that uses the National Weather Service API to get weather data and a web frontend to display the weather data powered by Blazor.
 
 This workshop is designed to be done in a 2 hour time frame.
+## Reference
+https://youtu.be/4ixWtXK7KzY?si=4eB2_hshpyDqLDaH
 
 ## Demo data
 
